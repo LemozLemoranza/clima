@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+
+}
+
+
+.principal{
+    height: 100vh;    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/imagenes/noche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.contenedor{
+   
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background: rgba(110,110,110,.25);
+
+}
+
+input{
+    width: 70vw;
+    height: 50px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 20vw;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+@media screen and (min-height:50px) {
+
+    .principal{
+        height: 600vh;   
+    }
+}
+
+@media screen and (min-height:140px) {
+
+    .principal{
+        height: 300vh;   
+    }
+}
+
+@media screen and (min-height:200px) {
+
+    .principal{
+        height: 170vh;   
+    }
+}
+
+
+@media screen and (min-height:450px) {
+
+    .principal{
+        height: 100vh;   
+    }
+}
+
+@media screen and (min-width: 250px) {
+   
+    .contenedor{
+        font-size: 25px;
+    }
+    .detalles{
+        font-size: 20px;
+    }
+    .clima{
+        font-size: 65px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    
+    .contenedor{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    
+    .contenedor{
+        font-size: 60px;
+    }
+    .detalles{
+        font-size: 30px;
+    }
+}
